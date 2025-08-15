@@ -40,7 +40,7 @@ backend/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/nids-backend.git
+git clone
 cd nids-backend
 ```
 
