@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-# optional: set NIDS_IFACE to select interface, else scapy default will be used
+# optional: set NIDS_IFACE to select interface, else scapy default
 IFACE = os.getenv("NIDS_IFACE", None)
 BPF_FILTER = os.getenv("NIDS_BPF", None)
 
